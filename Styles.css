@@ -1,0 +1,79 @@
+body {
+    background-image: url(images12.jpeg);
+    background-size: cover;
+}
+
+main {
+    padding: 2em;
+    padding-top: 0px;
+}
+h1 {
+    color: rgba(179, 114, 40, 0.959);
+    font-family: fantasy;
+    font-size: 100px;
+    text-align: center;
+    word-spacing: 10px;
+    margin-bottom: 0px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    /* margin: auto;
+    width: 100%; */
+}
+
+#enter {
+    padding: 10px 35px;
+    margin: 15px;
+    background-color: rgb(57, 184, 235);
+    border-radius: 20px;
+    border: 1px solid rgb(57, 184, 235);
+    vertical-align: middle;
+}
+
+#enter:hover {
+    background-color: rgb(36, 136, 175);
+    border: 1px solid rgb(36, 136, 175);
+    cursor: pointer; 
+}
+
+#movieinput {
+    background-color: darkgray;
+    color: cornsilk;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.second {
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.done {
+    text-decoration: line-through;
+    color: dodgerblue;
+    font-style: italic;
+}
+
+.maz {
+    padding: 8px 25px;
+    background-color: rgb(22, 197, 168);
+    border-radius: 15px;
+    border: 1px solid rgb(22, 197, 168);
+}
+
+.maz:hover {
+    cursor: pointer;
+    background-color: rgb(16, 97, 83);
+    border: 1px solid rgb(16, 97, 83);
+}
+
+li {
+    font-size: 30px;
+    color: rgb(212, 210, 58);
+    font-style: italic;
+    margin: 1em;
+    font-weight: bolder;
+}
